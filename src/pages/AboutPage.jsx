@@ -64,7 +64,7 @@ const AboutPage = () => {
       </section>
 
       <section className="container mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 gradient-text">Our Journey & Mission</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 gradient-text">Our Mission</h2>
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -88,7 +88,7 @@ const AboutPage = () => {
                 <h3 className="text-2xl font-semibold text-foreground">Our Vision</h3>
               </div>
               <p className="text-foreground/80">
-                To cultivate a global community where individuals of all ages can discover, engage with, and be transformed by uplifting Christian narratives, fostering a generation rooted in values and inspired by hope.
+                To build a global community where individuals of all ages can discover, engage with, and be transformed by uplifting Christian narratives, fostering a generation rooted in values and inspired by hope.
               </p>
             </div>
           </motion.div>
