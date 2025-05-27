@@ -28,7 +28,7 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{ secrets.ftp://77.37.34.137}}
-          username: ${{ secrets.u289853839.kingdompages.digital }}
-          password: ${{ secrets.Christ369@1234 }}
+          username: ${{ secrets.u289853839.kingdompages.digital}}
+          password: ${{ secrets.Christ369@1234}}
           local-dir: dist
           server-dir: public_html/
